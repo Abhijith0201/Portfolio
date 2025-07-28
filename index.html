@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Abhijith A S</h1>
+      <p>Web Developer | Python Learner</p>
+    </header>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a passionate full stack developer trainee with Python skills and a
+        love for building websites.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>Simple Calculator using JavaScript</li>
+        <li>To-Do List Web App</li>
+        <li>This Portfolio Website</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form onsubmit="return submitForm()">
+        <input type="text" placeholder="Your Name" required /><br />
+        <input type="email" placeholder="Your Email" required /><br />
+        <textarea placeholder="Your Message" required></textarea><br />
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>2025 Abhijith A S</p>
+    </footer>
+
+    <script src="script.js">
+          function submitForm() {
+        alert("Thank you! This is my Portfolio.");
+        return false; 
+      }
+    </script>
+  </body>
+</html>
